@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 2000px;
+  }
+  
+  .container {
+    width: 120px;
+    min-height: 350px;
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+    z-index: 1;
+    /* background-color: red; */
+  }
+
+  .recieve_change {
+    height: 0px;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .item i {
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(67, 164, 191);
+    border-radius: 50%;
+    color: whitesmoke;
+    }
+
+    .tick {
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 7px;
+      top: 8px;
+      opacity: 0;
+    }
+
+    .fa-circle-xmark {
+      background-color: rgb(67, 164, 191);
+      transition-property: background-color;
+      transition-duration: 2s;
+      transition-timing-function: ease;
+    }
+
+    .tick:checked ~ .fa-circle-xmark {
+      background-color: red;
+    }
+
+    .tick:checked ~ .recieve_change {
+      height: 285px;
+    }
+
+
+
+  
+
+
+
+  
+
+
+  
+  

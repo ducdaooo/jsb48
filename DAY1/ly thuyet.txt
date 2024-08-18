@@ -1,0 +1,19 @@
+title = hiện tên tab
+<title>>nội dung</title>
+<h> = heading (h1 den h6)
+<p >= paragraph (chỉ có 1 p)
+<li> = list
+<ul> = unorder list
+ol = order list
+img = image (có thuộc tính src => source) (de tieng viet k goi y)
+./  = truy cap vao nhung file cung bac
+a = dan link (thuoc tinh href = hyperlink reference)
+<br> = break = tach thanh 2 dong
+target blank = chuyen sang tab khac khi bam link
+goi class de the co ten goi rieng
+dung dau cham de goi ten class
+
+BTVN: 
+- thay doi mau chu o doan text trong bai ly thuyet
+- code de van
+- Tim hieu them cac the u, b, i

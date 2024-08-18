@@ -1,0 +1,47 @@
+.container {
+    width: 400px;
+    height: 35px;
+    border: 3px solid black ;
+}
+
+
+
+.loading {
+    width: 3px;
+    height: 30px;
+    background-color: green;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+}
+
+.loading:hover {
+    width: 200px;
+}
+
+h3 {
+    margin-left: 160px;
+    
+}
+
+.hinhvuongthanhhinhtron {
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    transition-property: border-radius;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    margin-top: 100px;
+}
+
+.hinhvuongthanhhinhtron:hover {
+    border-radius: 50%;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+.container {
+    width: 300px;
+    height: 150px;
+    background-color: bisque;
+    overflow: hidden;
+    overflow-y: scroll;
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+.container:hover {
+    height: 300px;
+}
+
+.container2 {
+    width: 500px;
+    background-color: bisque;
+    overflow: hidden;
+    text-wrap: nowrap;
+    overflow-x: scroll;
+    transition-property: text-wrap;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    margin-top: 100px;
+
+}
+
+.container2:hover {
+    text-wrap:pretty;
+}
+
+
+
+
+
+
+.container3 {
+    width: 200px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition-property: overflow;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    background-color: greenyellow;
+}
+
+
+
+.container1:hover {
+
+}
+
+

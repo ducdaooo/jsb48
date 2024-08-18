@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>btvn2</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            flex-direction: row;
+        }
+        .phone{
+            display: flex;
+            flex-direction: column;
+            border: 10px solid;
+            margin: 50px 50px 50px 150px;
+            height: 500px;
+            width: 240px;
+            border-radius: 7%;
+            justify-content: center;
+            align-items: center;
+            background-color: pink;
+        }
+        .aquamanimg{
+            border: 1px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-top: -50px;
+            margin-bottom: 10px;
+        }
+        .fbimg, .instagramimg, .emailimg, .phoneimg{
+            border: 1px;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+        }
+        .facebook, .instagram, .email, .phonee{
+            display: flex;
+            flex-direction: row;
+            border: 2px solid;
+            margin: 2px;
+            width: 200px;
+            align-items: center;
+            background-color: white;
+        }
+        .profile{
+            height: 560px;
+            width: 700px;
+            margin-left: 90px;
+        }
+        a{
+            color: rgb(209, 115, 130);
+            text-decoration: underline dotted;
+        }
+        .firstrow{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .aquamanimg2{
+            height: 35px;
+            width: 35px;
+            border: 1px;
+            border-radius: 50%;
+            margin-left: 550px;
+        }
+        .big{
+            padding: 20px;
+            height: 520px;
+            width: 710px;
+            background-color: rgb(221, 221, 221);
+        }
+        .content{
+            background-color: white;
+            margin-left: 50px;
+            height: 480px;
+            width: 560px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        h2{
+            margin: 20px;
+        }
+        .secondrow{
+            width: 520px;
+            height: 90px;
+            border: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .aquamanimg3{
+            height: 70px;
+            width: 70px;
+            border: 1px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+        .upload, .delete{
+            width: 222px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .upload{
+            background-color: rgb(204, 129, 204);
+            margin-left: 20px;
+        }
+        .delete{
+            background-color: rgb(221, 221, 221);
+            margin-left: 10px;
+            margin-right: -10px;
+        }
+        .name, .username, .bioline{
+            border: 0;
+            display: flex;
+            align-items: center;
+            background-color: rgb(221, 221, 221);
+            padding-left: 15px;
+            height: 40px;
+            width: 500px;
+            margin-left: 20px;
+        }
+        .biolink{
+            color: rgb(88, 88, 88);
+        }
+        h5{
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .fbtext, .instext{
+            margin-left: 40px;
+        }
+        .etext, .ptext{
+            margin-left: 55px;
+        }
+        p, span{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: smaller;
+        }
+        .uploadtext{
+            color: white;
+            font-weight: bold;
+        }
+        .deletetext{
+            font-weight: bold;
+        }
+        .godtext{
+            margin-top: -10px;
+        }
+        .facebook{
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="phone">
+        <img class="aquamanimg" src="./3f9b398eb359449a6beefb67d8ee8a8a.jpg" alt="aquaman">
+        <p>Aquaman</p>
+        <p class="godtext">God Of Sea</p>
+        <div class="facebook">
+            <img class="fbimg" src="./3f9b398eb359449a6beefb67d8ee8a8a.jpg" alt="fb icon">
+            <p class="fbtext">Facebook</p>
+        </div>
+        <div class="instagram">
+            <img class="instagramimg" src="./3f9b398eb359449a6beefb67d8ee8a8a.jpg" alt="instagram icon">
+            <p class="instext">Instagram</p>
+        </div>
+        <div class="email">
+            <img class="emailimg" src="./3f9b398eb359449a6beefb67d8ee8a8a.jpg" alt="email icon">
+            <p class="etext">Email</p>
+        </div>
+        <div class="phonee">
+            <img class="phoneimg" src="./3f9b398eb359449a6beefb67d8ee8a8a.jpg" alt="phone icon">
+            <p class="ptext">Phone</p>
+        </div>
+    </div>
+    <div class="profile">
+        <div class="firstrow">
+            <a href="bio.link/aquaman">bio.link/aquaman</a>
+            <img class="aquamanimg2" src="./3f9b398eb359449a6beefb67d8ee8a8a.jpg" alt="aquaman">
+        </div>
+        <div class="big">
+            <div class="content">
+                <h2>Profile</h2>
+                <div class="secondrow">
+                    <img class="aquamanimg3" src="./3f9b398eb359449a6beefb67d8ee8a8a.jpg" alt="aquamanicon">
+                    <div class="upload"><span class="uploadtext">Upload</span></div>
+                    <div class="delete"><span class="deletetext">Delete</span></div>
+                </div>
+                <h5>Name</h4>
+                <div class="name">
+                    <p>Aquaman</p>
+                </div>
+                <h5>@username</h4>
+                <div class="username">
+                    <span class="biolink">bio.link/</span><span>aquaman</span>
+                </div>
+                <h5>Bioline</h4>
+                <div class="bioline">
+                    <p>God Of Sea</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
